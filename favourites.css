@@ -1,0 +1,56 @@
+/* Reset some basic elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.favorites-container {
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.Favourite {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.favorites-content h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.favorites-content p {
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.shop-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.shop-button:hover {
+    background-color: #ff9a8b;
+}

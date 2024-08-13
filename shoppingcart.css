@@ -1,0 +1,56 @@
+/* Reset some basic elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cart-container {
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.Home {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.cart-content h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cart-content p {
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.shop-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f5576c;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.shop-button:hover {
+    background-color: #f093fb;
+}

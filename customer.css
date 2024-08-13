@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f5576c;
+}
+
+.contact-section, .faq-section, .contact-info {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    border-color: #f5576c;
+    outline: none;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #f5576c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #f093fb;
+}
+
+.faq h3 {
+    margin-bottom: 5px;
+    color: #f5576c;
+    cursor: pointer;
+}
+
+.faq p {
+    margin-bottom: 15px;
+    color: #666;
+    display: none;
+}
+
+.faq h3:hover {
+    color: #f093fb;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+.contact-info h2 {
+    margin-bottom: 15px;
+}
